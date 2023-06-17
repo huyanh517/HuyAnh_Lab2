@@ -1,0 +1,60 @@
+.container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:8px 12px;
+    gap: 16px;
+    background-color: #000;
+    border-radius: 12px;
+
+}
+
+.logo img {
+    max-width: 70%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.logo {
+    flex: 10%;
+}
+
+.menu {
+    flex: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 12%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.search {
+    flex: 20%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4px;
+}
+.search-input {
+    height: 24px;
+    flex: 60%;
+}
+
+.btn {
+    flex: 10%;
+    cursor: pointer;
+}
